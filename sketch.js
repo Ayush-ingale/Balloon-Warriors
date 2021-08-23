@@ -9,21 +9,21 @@ var life =15;
 
 
 function preload(){
-bgImg = loadImage("assets/bg.png")
+bgImg = loadImage("bg.png")
 
-balloonImg = loadAnimation("assets/balloon1.png","assets/balloon2.png","assets/balloon3.png")
+balloonImg = loadAnimation("balloon1.png","balloon2.png","balloon3.png")
 
-obsTop1 = loadImage("assets/obsTop1.png")
-obsTop2 = loadImage("assets/obsTop2.png")
+obsTop1 = loadImage("obsTop1.png")
+obsTop2 = loadImage("obsTop2.png")
 
-obsBottom1 = loadImage("assets/obsBottom1.png")
-obsBottom2 = loadImage("assets/obsBottom2.png")
-obsBottom3 = loadImage("assets/obsBottom3.png")
-repairkit = loadImage("assets/repairkit-removebg-preview.png")
-medkit = loadImage("assets/medkit.png")
-jerrycan = loadImage("assets/fuel_can-removebg-preview.png")
-airfiller = loadImage("assets/airblower-removebg-preview.png")
-groudanimation=loadAnimation("assets/ground.png","assets/ground - Copy.png","assets/ground - Copy (2).png")
+obsBottom1 = loadImage("obsBottom1.png")
+obsBottom2 = loadImage("obsBottom2.png")
+obsBottom3 = loadImage("obsBottom3.png")
+repairkit = loadImage("repairkit-removebg-preview.png")
+medkit = loadImage("medkit.png")
+jerrycan = loadImage("fuel_can-removebg-preview.png")
+airfiller = loadImage("airblower-removebg-preview.png")
+groudanimation=loadAnimation("ground.png","ground - Copy.png","ground - Copy (2).png")
 
 }
 
